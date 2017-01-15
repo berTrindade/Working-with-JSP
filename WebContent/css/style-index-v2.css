@@ -1,0 +1,48 @@
+@CHARSET "ISO-8859-1";
+
+@font-face 
+{
+	font-family: 'Josefin Sans';
+	src: url("../font/JosefinSans-Regular.ttf");
+} 
+
+/* Reset all Margins and Padding */
+* 
+{
+	margin: 0;
+	padding: 0; 
+}
+ 
+div 
+{
+	width: 200px;
+	margin: 13% auto;
+}
+
+ol
+{
+	border: 1px solid #60615a;
+	padding: 15px;
+}
+
+ol li
+{
+	padding: 5px;
+    margin-left: 15px;
+}
+
+li a:link, a:visited
+{
+	text-decoration: none;
+	font-family: Josefin Sans;
+	color: #000000;
+}
+
+li a:hover { text-decoration: underline; }
+
+span#user-type
+{
+	display: inline-block;
+	margin: 20px;
+	font-family: Josefin Sans;
+}

@@ -1,0 +1,76 @@
+@CHARSET "ISO-8859-1";
+
+@font-face 
+{
+	font-family: 'Josefin Sans';
+	src: url("../font/JosefinSans-Regular.ttf");
+} 
+
+/* Reset all Margins and Padding */
+* 
+{
+	margin: 0;
+	padding: 0; 
+}
+
+div 
+{
+	width: 200px;
+	margin: 10% auto;
+}
+
+fieldset 
+{
+	height: 135px;
+	width: 165px;
+	padding: 10px;
+	margin-bottom: 3px;	
+	border: 1px solid #60615a;
+	
+}
+
+legend 
+{
+	font-family: Josefin Sans;
+	font-size: 22px;
+	margin-bottom: -5px;
+}
+
+input[type="text"], input[type="password"]
+{
+	width: 85%;
+    padding: 10px;
+    margin: 8px 1px;
+    font-family: Josefin Sans;
+	font-size: 18px;
+}
+
+input[type="submit"] 
+{
+	font-family: Josefin Sans;
+	font-size: 22px;
+	width: 94%;
+	height: 40px;
+} 
+
+#username { margin-bottom: 4px; }
+
+span 
+{
+	font-family: Josefin Sans;
+	font-size: 22px;
+	color: #000000;
+	position: absolute;
+	text-align:center;
+	top: 55%;
+	width: 100%;
+}
+
+
+
+
+
+	
+
+
+
